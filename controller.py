@@ -56,7 +56,7 @@ class Controller(object):
             self._view._lvOut.controls.append(ft.Text("Nope, il segreto è più grande."))
             self._view.update()
             return
-
+#faccio le funzioni dei tre get
     def getNmax(self):
         return self._model.NMax
 

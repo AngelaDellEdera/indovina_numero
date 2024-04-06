@@ -11,7 +11,7 @@ class Model(object):
     @property
     def segreto(self):
         return self._segreto
-
+#tre get con le tre variabili a cui voglio accedere da fuori
     @property
     def NMax(self):
         return self._NMax
